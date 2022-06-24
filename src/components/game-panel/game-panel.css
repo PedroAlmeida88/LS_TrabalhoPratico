@@ -1,0 +1,73 @@
+/**********************************************
+*** © Linguagens Script > DEIS > ISEC > IPC 
+*** Jogo de Memória em React
+*** Estilos para game-panel.componente.jsx 
+**********************************************/
+
+.game-panel {
+  border: 2px,solid,black;    
+  display: flex;
+  justify-content: center;  
+  flex-direction: row;
+  align-items: center;
+}
+
+#game {
+  width: 100%;
+  min-width: 200px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  gap: 5px;
+  display: grid;
+  justify-content: center;
+  perspective: 1000px;
+  user-select: none;
+}
+
+#game.avancado {
+  width: 20%;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+#game.intermedio {
+  width: 20%;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}
+
+#game.hide {
+  display: none;
+}
+
+.palavras {
+  text-align: center;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.palavras.hide {
+  display: none;
+}
+
+.palavra.false {
+  width: 100px;
+  height: auto;
+  border: 1px solid rgb(100,100,100);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.palavra.true {
+  width: 100px;
+  height: auto;
+  border: 1px solid rgb(100,100,100);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: #5eac52;
+  color: white;
+}

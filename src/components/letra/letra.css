@@ -1,0 +1,21 @@
+.letra {
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(100,100,100);
+    margin: 0.5px;
+    padding: 1px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+
+.letra.clicked{
+    background-color: #5eac52;
+    color: white;
+}
+
+.letra:hover {
+    border: 2px solid var(--globalColor);
+    box-shadow: var(--boxshadow0);
+  }
+  
