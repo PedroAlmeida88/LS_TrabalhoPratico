@@ -25,11 +25,11 @@ function GamePanel({ selectedLevel, letras, palavras,gameStarted,setGameStarted,
       class1=""
     }
 
-    
+
     const handleClickLetra= (letra) => {
       if(gameStarted)
         setLetraSelecionadas([...letraSelecionadas, letra]);
-      console.log("siuuu");
+        console.log("siuuu");
     }
 
 

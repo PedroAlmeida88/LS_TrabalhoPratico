@@ -33,7 +33,6 @@ function ControlPanel(props) {
     }; 
   }, [gameStarted, timer]);
 
-  
   function getPalavra(val){
     setNovaPalavra(val.target.value);
     console.log(val.target.value);
